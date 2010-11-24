@@ -1,5 +1,6 @@
-# To change this template, choose Tools | Templates
-# and open the template in the editor.
+
+#vic = Vincent.new(-10.15618888888889,-48.29239444444444)
+#puts vic.calculate(90.0,3000.0) #-10.1098908234521, -48.227165530714
 
 class Vincent
   def initialize(lat1,lon1)
@@ -58,7 +59,7 @@ class Vincent
             bn/6*cos2_sigma_m*(-3+4*sin_sigma*sin_sigma)*(-3+4*cos2_sigma_m*cos2_sigma_m)));
       sigma_p = sigma;
       sigma = s / (@b*an) + delta_sigma;
-      break if ((sigma.abs-sigma_p) > 1.0e-012)
+      break if ((sigma.abs-sigma_p) > 1.0e-012) or sigma.abs==sigma_p
     end
 
     tmp = sin_u1*sin_sigma - cos_u1*cos_sigma*cos_alpha1;
@@ -76,11 +77,4 @@ class Vincent
   end
 
 
-
-
-
-
 end
-
-vic = Vincent.new(-10.15618888888889,-48.29239444444444)
-puts vic.calculate(90.0,3000.0) #-10.1098908234521, -48.227165530714
