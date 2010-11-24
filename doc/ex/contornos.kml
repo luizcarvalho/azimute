@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+        <kml xmlns='http://www.opengis.net/kml/2.2'
+             xmlns:gx='http://www.google.com/kml/ext/2.2'
+             xmlns:kml='http://www.opengis.net/kml/2.2'
+             xmlns:atom='http://www.w3.org/2005/Atom'>
+        <Document>
+          <name>Contornos de PropagaÃ§Ã£o para RadiodifusÃ£o</name>
+          <open>1</open><Style id='contorno1_normal'>
+            <LineStyle>
+              <color>ff00ffff</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>0000ffff</color>
+            </PolyStyle>
+          </Style><Style id='contorno1_highlight'>
+            <LineStyle>
+              <color>ff00ffff</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>0000ffff</color>
+            </PolyStyle>
+          </Style><StyleMap id='contorno1'>
+            <Pair>
+              <key>normal</key>
+              <styleUrl>#contorno1_normal</styleUrl>
+            </Pair>
+            <Pair>
+              <key>highlight</key>
+              <styleUrl>#contorno1_highlight</styleUrl>
+            </Pair>
+          </StyleMap><Style id='contorno2_normal'>
+            <LineStyle>
+              <color>ffFF6600</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>00FF6600</color>
+            </PolyStyle>
+          </Style><Style id='contorno2_highlight'>
+            <LineStyle>
+              <color>ffFF6600</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>00FF6600</color>
+            </PolyStyle>
+          </Style><StyleMap id='contorno2'>
+            <Pair>
+              <key>normal</key>
+              <styleUrl>#contorno2_normal</styleUrl>
+            </Pair>
+            <Pair>
+              <key>highlight</key>
+              <styleUrl>#contorno2_highlight</styleUrl>
+            </Pair>
+          </StyleMap><Style id='contorno3_normal'>
+            <LineStyle>
+              <color>ff0000ff</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>000000ff</color>
+            </PolyStyle>
+          </Style><Style id='contorno3_highlight'>
+            <LineStyle>
+              <color>ff0000ff</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>000000ff</color>
+            </PolyStyle>
+          </Style><StyleMap id='contorno3'>
+            <Pair>
+              <key>normal</key>
+              <styleUrl>#contorno3_normal</styleUrl>
+            </Pair>
+            <Pair>
+              <key>highlight</key>
+              <styleUrl>#contorno3_highlight</styleUrl>
+            </Pair>
+          </StyleMap><Style id='contorno4_normal'>
+            <LineStyle>
+              <color>ff33CCFF</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>0033CCFF</color>
+            </PolyStyle>
+          </Style><Style id='contorno4_highlight'>
+            <LineStyle>
+              <color>ff33CCFF</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>0033CCFF</color>
+            </PolyStyle>
+          </Style><StyleMap id='contorno4'>
+            <Pair>
+              <key>normal</key>
+              <styleUrl>#contorno4_normal</styleUrl>
+            </Pair>
+            <Pair>
+              <key>highlight</key>
+              <styleUrl>#contorno4_highlight</styleUrl>
+            </Pair>
+          </StyleMap>        <Placemark>
+                    <name>Contorno 1</name>
+                    <styleUrl>#contorno1</styleUrl>
+                    <Polygon>
+                            <tessellate>1</tessellate>
+                            <outerBoundaryIs>
+                                    <LinearRing>
+                                            <coordinates>
+                  
+ -48.0,-9.67580472244541 
+ -47.9369335642903,-9.89167965182087 
+ -47.8912135962451,-9.9377122755468 
+ -47.7570581007625,-9.99991134187516 
+ -47.811190789528,-10.1079648916839 
+ -47.8454436502736,-10.2651013988168 
+ -47.9999999899193,-10.3738371105805 
+ -48.18857644579,-10.3233848999879 
+ -48.3412740768529,-10.1950154752189 
+ -48.406167786002,-9.99975221233666 
+ -48.3505266512226,-9.79908796338036 
+ -48.1938806293654,-9.66673315005453 
+ -48.0000000174464,-9.67580472244541 
+              </coordinates>
+                                    </LinearRing>
+                            </outerBoundaryIs>
+                    </Polygon>
+            </Placemark>        <Placemark>
+                    <name>Contorno 2</name>
+                    <styleUrl>#contorno2</styleUrl>
+                    <Polygon>
+                            <tessellate>1</tessellate>
+                            <outerBoundaryIs>
+                                    <LinearRing>
+                                            <coordinates>
+                  
+ -48.0,-9.78816099169073 
+ -47.9602655667972,-9.93176353024393 
+ -47.9314628948175,-9.96076468995082 
+ -47.8441070962917,-9.99996349305446 
+ -47.8790941294839,-10.0691571394829 
+ -47.9001371521849,-10.1713475176405 
+ -47.9999999932807,-10.2492795329204 
+ -48.1258212496616,-10.2158526817251 
+ -48.2293456832912,-10.1311209496994 
+ -48.2744542846275,-9.99988686525273 
+ -48.2368298544046,-9.86432279695257 
+ -48.1303128801611,-9.7760879166911 
+ -48.0000000114039,-9.78816099169073 
+              </coordinates>
+                                    </LinearRing>
+                            </outerBoundaryIs>
+                    </Polygon>
+            </Placemark>        <Placemark>
+                    <name>Contorno 3</name>
+                    <styleUrl>#contorno3</styleUrl>
+                    <Polygon>
+                            <tessellate>1</tessellate>
+                            <outerBoundaryIs>
+                                    <LinearRing>
+                                            <coordinates>
+                  
+ -48.0,-9.67547975783143 
+ -47.9369335642903,-9.89167965182087 
+ -47.8912135962451,-9.9377122755468 
+ -47.757149308831,-9.9999114084315 
+ -47.8111749869675,-10.1079739203588 
+ -47.8454436502736,-10.2651013988168 
+ -47.9999999899193,-10.3738371105805 
+ -48.18857644579,-10.3233848999879 
+ -48.3469661421993,-10.1982630931216 
+ -48.406167786002,-9.99975221233666 
+ -48.3505266512226,-9.79908796338036 
+ -48.1938806293654,-9.66673315005453 
+ -48.0000000174639,-9.67547975783143 
+              </coordinates>
+                                    </LinearRing>
+                            </outerBoundaryIs>
+                    </Polygon>
+            </Placemark>        <Placemark>
+                    <name>Contorno 4</name>
+                    <styleUrl>#contorno4</styleUrl>
+                    <Polygon>
+                            <tessellate>1</tessellate>
+                            <outerBoundaryIs>
+                                    <LinearRing>
+                                            <coordinates>
+                  
+ -48.0,-9.45633533524974 
+ -47.8771248019442,-9.78887736599855 
+ -47.7879679024852,-9.8785422598121 
+ -47.5581790196007,-9.99970677699384 
+ -47.6510178794809,-10.1994132487871 
+ -47.7378916151375,-10.4492738654989 
+ -47.9999999835517,-10.6095189729501 
+ -48.3074743849804,-10.5268825815795 
+ -48.5493628638484,-10.3136329130902 
+ -48.6476771350396,-9.99936992233329 
+ -48.5591179107134,-9.6792405876088 
+ -48.3150089543116,-9.45812823355715 
+ -48.0000000292378,-9.45633533524974 
+              </coordinates>
+                                    </LinearRing>
+                            </outerBoundaryIs>
+                    </Polygon>
+            </Placemark>
+  </Document>
+</kml>
