@@ -73,6 +73,7 @@ class Vincent
     rev_az = Math.atan2(sin_alpha, -tmp);
 
     {:lat=>todeg(lat2),:lon=> @lon1+todeg(ln),:rev_az=>rev_az}
+#C: -9.740848496159662,-48.04187046994603
 
   end
 

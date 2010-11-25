@@ -63,10 +63,68 @@
     "\n  </Document>\n</kml>"
   end
 
+  def kml_icon(coordenadas,nome)
+"
 
-def kml_default_template(coordenadas)
+	<Style id='icon_normal'>
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id='icon_highlight'>
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id='style_icon'>
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#{nome} (#{coordenadas[:lat]},#{coordenadas[:lon]})</name>
+		<LookAt>
+			<longitude>#{coordenadas[:lon]}</longitude>
+			<latitude>#{coordenadas[:lat]}</latitude>
+			<altitude>0</altitude>
+			<heading>0.03</heading>
+			<tilt>0</tilt>
+			<range>2000.0</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#style_icon</styleUrl>
+		<Point>
+			<coordinates>#{coordenadas[:lon]},#{coordenadas[:lat]},0</coordinates>
+		</Point>
+	</Placemark>
+
+
+"
+
+
+
+  end
+
+def kml_default_template(origem,coordenadas)
   default_template = kml_inicio
   default_template+= kml_estilos
+  default_template+= kml_icon(origem, "Antena")
   (1..4).each do |numero|
     default_template+= desenhar_poligonos(numero, coordenadas[numero])
   end

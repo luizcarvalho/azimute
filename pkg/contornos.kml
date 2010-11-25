@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+        <kml xmlns='http://www.opengis.net/kml/2.2'
+             xmlns:gx='http://www.google.com/kml/ext/2.2'
+             xmlns:kml='http://www.opengis.net/kml/2.2'
+             xmlns:atom='http://www.w3.org/2005/Atom'>
+        <Document>
+          <name>Contornos de Propagação para Radiodifusão</name>
+          <open>1</open><Style id='contorno1_normal'>
+            <LineStyle>
+              <color>ff00ffff</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>0000ffff</color>
+            </PolyStyle>
+          </Style><Style id='contorno1_highlight'>
+            <LineStyle>
+              <color>ff00ffff</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>0000ffff</color>
+            </PolyStyle>
+          </Style><StyleMap id='contorno1'>
+            <Pair>
+              <key>normal</key>
+              <styleUrl>#contorno1_normal</styleUrl>
+            </Pair>
+            <Pair>
+              <key>highlight</key>
+              <styleUrl>#contorno1_highlight</styleUrl>
+            </Pair>
+          </StyleMap><Style id='contorno2_normal'>
+            <LineStyle>
+              <color>ffFF6600</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>00FF6600</color>
+            </PolyStyle>
+          </Style><Style id='contorno2_highlight'>
+            <LineStyle>
+              <color>ffFF6600</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>00FF6600</color>
+            </PolyStyle>
+          </Style><StyleMap id='contorno2'>
+            <Pair>
+              <key>normal</key>
+              <styleUrl>#contorno2_normal</styleUrl>
+            </Pair>
+            <Pair>
+              <key>highlight</key>
+              <styleUrl>#contorno2_highlight</styleUrl>
+            </Pair>
+          </StyleMap><Style id='contorno3_normal'>
+            <LineStyle>
+              <color>ff0000ff</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>000000ff</color>
+            </PolyStyle>
+          </Style><Style id='contorno3_highlight'>
+            <LineStyle>
+              <color>ff0000ff</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>000000ff</color>
+            </PolyStyle>
+          </Style><StyleMap id='contorno3'>
+            <Pair>
+              <key>normal</key>
+              <styleUrl>#contorno3_normal</styleUrl>
+            </Pair>
+            <Pair>
+              <key>highlight</key>
+              <styleUrl>#contorno3_highlight</styleUrl>
+            </Pair>
+          </StyleMap><Style id='contorno4_normal'>
+            <LineStyle>
+              <color>ff33CCFF</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>0033CCFF</color>
+            </PolyStyle>
+          </Style><Style id='contorno4_highlight'>
+            <LineStyle>
+              <color>ff33CCFF</color>
+              <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+              <color>0033CCFF</color>
+            </PolyStyle>
+          </Style><StyleMap id='contorno4'>
+            <Pair>
+              <key>normal</key>
+              <styleUrl>#contorno4_normal</styleUrl>
+            </Pair>
+            <Pair>
+              <key>highlight</key>
+              <styleUrl>#contorno4_highlight</styleUrl>
+            </Pair>
+          </StyleMap>
+
+	<Style id='icon_normal'>
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id='icon_highlight'>
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id='style_icon'>
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Antena (-10.225833,-48.265278)</name>
+		<LookAt>
+			<longitude>-48.265278</longitude>
+			<latitude>-10.225833</latitude>
+			<altitude>0</altitude>
+			<heading>0.03</heading>
+			<tilt>0</tilt>
+			<range>2000.0</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#style_icon</styleUrl>
+		<Point>
+			<coordinates>-48.265278,-10.225833,0</coordinates>
+		</Point>
+	</Placemark>
+
+
+	<Placemark>
+    		<name>Contorno 1</name>
+    		<styleUrl>#contorno1</styleUrl>
+    		<Polygon>
+    			<tessellate>1</tessellate>
+    			<outerBoundaryIs>
+    				<LinearRing>
+    					<coordinates>
+                  
+ -48.2652779999429,-9.90164063493146 
+ -48.2021677304322,-10.1175135588602 
+ -48.1564157557603,-10.1635455386688 
+ -48.0221663610736,-10.2257422987345 
+ -48.0763348856694,-10.3337954820773 
+ -48.1106101397736,-10.4909309713768 
+ -48.265277989912,-10.5996666393654 
+ -48.4539912807326,-10.5492134884135 
+ -48.6067962128327,-10.4208423114235 
+ -48.6717295629034,-10.2255795014542 
+ -48.6160455830405,-10.0249188659708 
+ -48.4592903015003,-9.89256802993851 
+ -48.2652780174583,-9.90164063493146 
+              </coordinates>
+    				</LinearRing>
+    			</outerBoundaryIs>
+    		</Polygon>
+    	</Placemark>	<Placemark>
+    		<name>Contorno 2</name>
+    		<styleUrl>#contorno2</styleUrl>
+    		<Polygon>
+    			<tessellate>1</tessellate>
+    			<outerBoundaryIs>
+    				<LinearRing>
+    					<coordinates>
+                  
+ -48.2652779999627,-10.0139959051079 
+ -48.2255158369925,-10.1575971349227 
+ -48.196693002334,-10.1865979516017 
+ -48.1092761755951,-10.225795651763 
+ -48.1442867150072,-10.294988881812 
+ -48.1653437659631,-10.3971784986608 
+ -48.2652779932759,-10.4751102316519 
+ -48.3911895888887,-10.4416830209745 
+ -48.4947867117325,-10.3569506996405 
+ -48.5399240408857,-10.2257172576988 
+ -48.5022717305689,-10.0901553157724 
+ -48.3956803879552,-10.0019224769817 
+ -48.2652780114118,-10.0139959051079 
+              </coordinates>
+    				</LinearRing>
+    			</outerBoundaryIs>
+    		</Polygon>
+    	</Placemark>	<Placemark>
+    		<name>Contorno 3</name>
+    		<styleUrl>#contorno3</styleUrl>
+    		<Polygon>
+    			<tessellate>1</tessellate>
+    			<outerBoundaryIs>
+    				<LinearRing>
+    					<coordinates>
+                  
+ -48.2652779999429,-9.90131567319117 
+ -48.2021677304322,-10.1175135588602 
+ -48.1564157557603,-10.1635455386688 
+ -48.0222576328663,-10.2257423668247 
+ -48.076319071781,-10.3338045104469 
+ -48.1106101397736,-10.4909309713768 
+ -48.265277989912,-10.5996666393654 
+ -48.4539912807326,-10.5492134884135 
+ -48.6124924298955,-10.4240897578813 
+ -48.6717295629034,-10.2255795014542 
+ -48.6160455830405,-10.0249188659708 
+ -48.4592903015003,-9.89256802993851 
+ -48.2652780174758,-9.90131567319118 
+              </coordinates>
+    				</LinearRing>
+    			</outerBoundaryIs>
+    		</Polygon>
+    	</Placemark>	<Placemark>
+    		<name>Contorno 4</name>
+    		<styleUrl>#contorno4</styleUrl>
+    		<Polygon>
+    			<tessellate>1</tessellate>
+    			<outerBoundaryIs>
+    				<LinearRing>
+    					<coordinates>
+                  
+ -48.2652779999044,-9.68217316763259 
+ -48.1423182917607,-10.0147118699739 
+ -48.0530989719917,-10.1043750117675 
+ -47.8231483348223,-10.2255330195168 
+ -47.9160461207306,-10.4252398522857 
+ -48.0029770828169,-10.6751000436894 
+ -48.2652779835394,-10.8353462515206 
+ -48.5729799351064,-10.7527070796984 
+ -48.8150384754517,-10.5394520179698 
+ -48.9134076235116,-10.2251884009975 
+ -48.8247754770139,-9.9050661883493 
+ -48.5804962498678,-9.68396292074571 
+ -48.2652780292573,-9.6821731676326 
+              </coordinates>
+    				</LinearRing>
+    			</outerBoundaryIs>
+    		</Polygon>
+    	</Placemark>
+  </Document>
+</kml>
