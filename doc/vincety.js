@@ -1,12 +1,13 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 /*
- * Calculate destination point given start point lat/long (numeric degrees),
- * bearing (numeric degrees) & distance (in m).
+ *  Calculate destination point given start point lat/long (numeric degrees),
+ *  bearing (numeric degrees) & distance (in m).
  *
- * from: Vincenty direct formula - T Vincenty, "Direct and Inverse Solutions of Geodesics on the
+ * from: Vincenty direct formula - T Vincenty, "Direct and Invers e Solutions of Geodesics on the
  *       Ellipsoid with application of nested equations", Survey Review, vol XXII no 176, 1975
  *       http://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf
  */
+
 function destVincenty(lat1, lon1, brng, dist) {
   var a = 6378137, b = 6356752.3142,  f = 1/298.257223563;  // WGS-84 ellipsiod
   var s = dist;
