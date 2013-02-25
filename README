@@ -1,4 +1,4 @@
-polígonos para representação de Contornos de Propagação para Radiodifusão com plotagem em sistema GIS do Google Earth, a partir de ângulo ( Azimute) e distância fornecidos
+polígonos para resentação de Contornos de Propagação para Radiodifusão com plotagem em sistema GIS do Google Earth, a partir de ângulo ( Azimute) e distância fornecidos
 O algoritmo utilizado aqui é chamado de fórmula inversa de Vincent e foi adaptado para a linguagem Ruby para estudo, utilização e contribuição para os desenvolvedores e usuários interessados
 
 Desenvolvedores:
