@@ -1,24 +1,25 @@
+# Azumute
+
+## Descricao
+
 polígonos para resentação de Contornos de Propagação para Radiodifusão com plotagem em sistema GIS do Google Earth, a partir de ângulo ( Azimute) e distância fornecidos
 O algoritmo utilizado aqui é chamado de fórmula inversa de Vincent e foi adaptado para a linguagem Ruby para estudo, utilização e contribuição para os desenvolvedores e usuários interessados
 
-        Luiz Carvalho
-	maximusmano@gmail.com
-	http://www.redrails.com.br
+## Autor
 
-	
+Luiz Carvalho
+contato@luizcarvalho.com
+<http://luizcarvalho.com>
 
+## Notas do Autor
 
-
-Notas do Autor:
   {} Calculate destination point given start point lat/long (numeric degrees),
    bearing (numeric degrees) & distance (in m).
 
    from: Vincenty direct formula - T Vincenty, "Direct and Inverse Solutions of Geodesics on the
          Ellipsoid with application of nested equations", Survey Review, vol XXII no 176, 1975
-         http://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf
-  
-  
-  
-  Agradecimentos:
-  Engenheiro Antonio Ernani ( @aemartinsjr )
- 
+         <http://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf>
+
+## Agradecimentos
+
+Engenheiro Antonio Ernani ( @aemartinsjr )
