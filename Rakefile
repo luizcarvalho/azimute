@@ -1,4 +1,3 @@
-#
 # To change this template, choose Tools | Templates
 # and open the template in the editor.
 
@@ -14,8 +13,8 @@ spec = Gem::Specification.new do |s|
   s.version = '0.0.1'
   s.has_rdoc = true
   s.extra_rdoc_files = %w[README LICENSE]
-  s.summary = 'Gerador de polígonos para representação de Contornos de Propagação para Radiodifusão com plotagem em sistema GIS do Google Earth, a partir de ângulo ( Azimute) e distância fornecidos'
-  s.description = s.summary
+  s.summary = 'Gerador de polígonos para representação de Contornos de Propagação para Radiodifusão'
+  s.description = "#{s.summary} com plotagem em sistema GIS do Google Earth, a partir de ângulo e distância fornecidos"
   s.author = 'Luiz Carvalho'
   s.email = 'maximusmano@gmail.com'
   # s.executables = ['your_executable_here']
